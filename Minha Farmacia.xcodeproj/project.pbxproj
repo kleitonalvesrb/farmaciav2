@@ -16,6 +16,13 @@
 		634B1C181DAE144E0018E7EE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634B1C171DAE144E0018E7EE /* Alamofire.framework */; };
 		634B1C1A1DAE149D0018E7EE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634B1C191DAE149D0018E7EE /* Alamofire.framework */; };
 		634B1C1B1DAE149D0018E7EE /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 634B1C191DAE149D0018E7EE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		634B1C1F1DAEC65D0018E7EE /* DosagemMedicamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B1C1E1DAEC65D0018E7EE /* DosagemMedicamento.swift */; };
+		634B1C211DAEC6830018E7EE /* Medicamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B1C201DAEC6830018E7EE /* Medicamento.swift */; };
+		634B1C231DAEC6A40018E7EE /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B1C221DAEC6A40018E7EE /* Usuario.swift */; };
+		634B1C261DAEC7030018E7EE /* UrlWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B1C251DAEC7030018E7EE /* UrlWS.swift */; };
+		634B1C281DAEC72F0018E7EE /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B1C271DAEC72F0018E7EE /* Util.swift */; };
+		634B1C2B1DAECCC30018E7EE /* indefinido.png in Resources */ = {isa = PBXBuildFile; fileRef = 634B1C2A1DAECCC30018E7EE /* indefinido.png */; };
+		634B1C2D1DAECD0F0018E7EE /* TelaCadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B1C2C1DAECD0F0018E7EE /* TelaCadastroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +50,13 @@
 		634B1C101DAE13D20018E7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634B1C171DAE144E0018E7EE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		634B1C191DAE149D0018E7EE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		634B1C1E1DAEC65D0018E7EE /* DosagemMedicamento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DosagemMedicamento.swift; sourceTree = "<group>"; };
+		634B1C201DAEC6830018E7EE /* Medicamento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicamento.swift; sourceTree = "<group>"; };
+		634B1C221DAEC6A40018E7EE /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		634B1C251DAEC7030018E7EE /* UrlWS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlWS.swift; sourceTree = "<group>"; };
+		634B1C271DAEC72F0018E7EE /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		634B1C2A1DAECCC30018E7EE /* indefinido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indefinido.png; sourceTree = "<group>"; };
+		634B1C2C1DAECD0F0018E7EE /* TelaCadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaCadastroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 		634B1BF51DAE13D20018E7EE = {
 			isa = PBXGroup;
 			children = (
+				634B1C291DAECC8A0018E7EE /* Imagens */,
 				634B1C161DAE141D0018E7EE /* Framework */,
 				634B1C001DAE13D20018E7EE /* Minha Farmacia */,
 				634B1BFF1DAE13D20018E7EE /* Products */,
@@ -78,6 +93,8 @@
 		634B1C001DAE13D20018E7EE /* Minha Farmacia */ = {
 			isa = PBXGroup;
 			children = (
+				634B1C241DAEC6DC0018E7EE /* Utilidades */,
+				634B1C1D1DAEC6350018E7EE /* Entidades */,
 				634B1C011DAE13D20018E7EE /* AppDelegate.swift */,
 				634B1C031DAE13D20018E7EE /* ViewController.swift */,
 				634B1C051DAE13D20018E7EE /* Main.storyboard */,
@@ -85,6 +102,7 @@
 				634B1C0D1DAE13D20018E7EE /* LaunchScreen.storyboard */,
 				634B1C101DAE13D20018E7EE /* Info.plist */,
 				634B1C081DAE13D20018E7EE /* Minha_Farmacia.xcdatamodeld */,
+				634B1C2C1DAECD0F0018E7EE /* TelaCadastroViewController.swift */,
 			);
 			path = "Minha Farmacia";
 			sourceTree = "<group>";
@@ -96,6 +114,33 @@
 				634B1C171DAE144E0018E7EE /* Alamofire.framework */,
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		634B1C1D1DAEC6350018E7EE /* Entidades */ = {
+			isa = PBXGroup;
+			children = (
+				634B1C1E1DAEC65D0018E7EE /* DosagemMedicamento.swift */,
+				634B1C201DAEC6830018E7EE /* Medicamento.swift */,
+				634B1C221DAEC6A40018E7EE /* Usuario.swift */,
+			);
+			name = Entidades;
+			sourceTree = "<group>";
+		};
+		634B1C241DAEC6DC0018E7EE /* Utilidades */ = {
+			isa = PBXGroup;
+			children = (
+				634B1C251DAEC7030018E7EE /* UrlWS.swift */,
+				634B1C271DAEC72F0018E7EE /* Util.swift */,
+			);
+			name = Utilidades;
+			sourceTree = "<group>";
+		};
+		634B1C291DAECC8A0018E7EE /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				634B1C2A1DAECCC30018E7EE /* indefinido.png */,
+			);
+			name = Imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +205,7 @@
 			files = (
 				634B1C0F1DAE13D20018E7EE /* LaunchScreen.storyboard in Resources */,
 				634B1C0C1DAE13D20018E7EE /* Assets.xcassets in Resources */,
+				634B1C2B1DAECCC30018E7EE /* indefinido.png in Resources */,
 				634B1C071DAE13D20018E7EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,8 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				634B1C041DAE13D20018E7EE /* ViewController.swift in Sources */,
+				634B1C1F1DAEC65D0018E7EE /* DosagemMedicamento.swift in Sources */,
+				634B1C231DAEC6A40018E7EE /* Usuario.swift in Sources */,
+				634B1C281DAEC72F0018E7EE /* Util.swift in Sources */,
+				634B1C261DAEC7030018E7EE /* UrlWS.swift in Sources */,
+				634B1C211DAEC6830018E7EE /* Medicamento.swift in Sources */,
 				634B1C0A1DAE13D20018E7EE /* Minha_Farmacia.xcdatamodeld in Sources */,
 				634B1C021DAE13D20018E7EE /* AppDelegate.swift in Sources */,
+				634B1C2D1DAECD0F0018E7EE /* TelaCadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
